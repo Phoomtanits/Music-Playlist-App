@@ -1,16 +1,31 @@
-# testing_app
+# Music Playlist App
 
-A new Flutter project.
+A Flutter application that allows users to view playlists, list songs, play, pause, shuffle songs, and control playback time. The app integrates with the Deezer API for fetching song data and control.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Display Playlists: View a list of available playlists from Deezer.
+- List Songs: Browse songs within each playlist.
+- Play Music: Play music directly from the playlist.
+- Pause Music: Pause the currently playing song.
+- Loop Songs: Enable looping within the playlist.
+- Shuffle Playlist: Randomly shuffle the songs in the playlist.
+- Seek Song: Control the playback position of the song (rewind, fast forward).
+- Deezer API Integration: Fetch song data and stream music using Deezer API.
 
-A few resources to get you started if this is your first Flutter project:
+## Requirements
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK 3.24.5 or higher (Currently using Flutter 3.24.5)
+- Dart 3.5.4 or higher (Currently using Dart 3.5.4)
+- iPhone 16 Pro Max (device used for development)
+- Deezer API key (You need to register and get an API key from Deezer)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to run the application
+
+- clone the repository: git clone https://github.com/your-username/Music-Playlist-App.git
+- cd Music-Playlist-App
+- flutter pub get
+- set your DEEZER api key at api_url.dart
+- flutter run
+
+
